@@ -1,0 +1,61 @@
+#notificationsList {
+    list-style: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+a#mainButtons{
+    background-color: buttonface;
+    color: black;
+}
+
+a#mainButtons:hover{
+    color: white;
+}
+
+a#listButton{
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+ 
+ul{
+    //background-color: red;
+    list-style-type: none;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+}
+
+#listItembuttons { margin-left: 5px; font-size: 18px; float:right;}
+
+#listItems { margin-left: 5px; border-style: solid; border-width: 2px; border-radius: 12px;margin-bottom: 5px;padding: 10px;}
+#listItemsDetailsView { margin-left: 5px; font-size: 20px;}
+
+.itemCompleted {background-color: aquamarine;}
+
+.itemDue {background-color: lightcoral;}
+
+#countDiv{
+    text-align: right;
+    font-size: 30px;
+}
+
+#comments{  
+            //border-width: 1px;
+            //border-style: solid;
+            padding-left: 0px;
+}
+
+#commentDiv {margin-bottom: 100px; //background-color: lightgreen;}
+
+#commentSubmit{float: right; margin-top: 4px;}
+
+#userComment {border-width: 2px; border-style: solid;margin-bottom: 10px; padding: 15px;}
+
+#deleteCommentB{float: right; background-color: white; font-size: 20px; margin-right: 10px;margin-top: 20px;}
+
+#userNavBar {font-size: 20px;}
+#costOfList {font-style: italic; font-size: 20px;color: chartreuse}
