@@ -1,5 +1,6 @@
 <?php 
-    require_once 'functions/connectdb.php';
+    //require_once 'functions/connectdb.php';
+    //require_once '../../connectdb.php';
     require_once 'functions/lists.php';
 ?>
 <!DOCTYPE html>

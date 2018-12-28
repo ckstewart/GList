@@ -1,6 +1,7 @@
 <?php 
           
-    include_once 'connectdb.php';
+    //require_once 'connectdb.php'; this is the one for my school db
+ require_once '../../connectdb.php'; //this is the one for my local db you would need to go up another folder to remove the errors on the users.php page but it will cause errors for the index page
 
     class User // will get and dislay all user along with relation to user
     {

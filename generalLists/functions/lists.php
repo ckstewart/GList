@@ -1,5 +1,6 @@
 <?php 
- require_once 'connectdb.php';
+ //require_once 'connectdb.php'; this is the one for my school db
+ require_once '../../connectdb.php'; //this is the one for my local db you would need to go up another folder to remove the errors on the lists.php page but it will cause errors for the index page
  require_once 'users.php';
 //echo 'connected to lists';
           
@@ -727,7 +728,7 @@ $listId' and followerId = '$userId'";
         
         public function getPublicLists($db){
             
-            $sql = "SELECT * From list WHERE 1 ORDER BY listId DESC";
+            $sql = "SELECT * From list WHERE privacy = 'public' ORDER BY listId DESC";
             
             $result = $db->query($sql);
             

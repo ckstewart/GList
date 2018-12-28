@@ -88,7 +88,7 @@
 
                             <label for="price">Price</label>
 
-                            <input type="text" class="form-control" id="price" name="price" aria-describedby="emailHelp" placeholder="$10.00">
+                            <input type="text" class="form-control" id="price" name="price" aria-describedby="emailHelp" placeholder="$10.00" value="0">
 
 
 
